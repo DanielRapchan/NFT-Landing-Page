@@ -8,3 +8,44 @@ body {
     box-sizing: border-box;
     background-color: #131313;
     color: #FFFFFF;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top__logo {
+    font-size: 32px;
+}
+
+.top__menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.top__menu__item {
+    font-size: 22px;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content__title {
+    font-size: 55px;
+}
+
+.content__paragraph {
+    font-size: 22px;
+}
