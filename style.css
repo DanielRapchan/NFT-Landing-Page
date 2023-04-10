@@ -13,31 +13,47 @@ body {
 .top {
     margin: 3%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .top__header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .top__logo {
-    font-size: 32px;
+    margin: 0 3%;
+    display: flex;
+    font-size: 36px;
+    align-items: center;
 }
 
 .top__menu {
     display: flex;
-    flex-direction: row;
+    margin: 0 6%;
+    font-size: 25px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .top__menu__item {
-    font-size: 22px;
+    margin: 0 25%;
+}
+
+.buttons {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons__icons {
+    margin: 0 5%;
 }
 
 .content {
-    margin: 15%;
+    margin: 5% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,8 +76,8 @@ body {
 
 .content__stats {
     display: flex;
-    align-items: flex-end;
-    align-content: flex-end;
+    margin-right: 20%;
+    margin-top: 23%;
     justify-content: left;
 }
 
