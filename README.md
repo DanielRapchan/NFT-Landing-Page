@@ -1,2 +1,2 @@
 # NFT-Landing-Page
-Este projeto é uma landing page feita em HTML e CSS, com design minimalista e intuitivo, com a finalidade de vender arte digital em forma de NFT's.
+This project is a landing page made with HTML and CSS. With minimalist, intuitive design, it's purpose is to show and sell digital art in the form of NFT's.
